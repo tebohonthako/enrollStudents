@@ -46,4 +46,9 @@ public class Student_Service_Imp implements Student_Service {
         return studentdao.updateStudent(student);
     }
 
+    @Override
+    public List<Student> getStudent(Student student) {
+        return List.of();
+    }
+
 }
